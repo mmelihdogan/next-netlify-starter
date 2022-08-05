@@ -6,14 +6,15 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Menar Yapı</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <img src="/logo.png" alt="Menar Logo"  />
+        <Header title="Yapım Aşamasında" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          
         </p>
       </main>
 
